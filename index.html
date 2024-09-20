@@ -1,19 +1,51 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Strona w Budowie</title>
+    <title>GitHub Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="box">
-            <h1>Website Under Construction</h1>
+    <header>
+        <div class="logo">MyGitHub</div>
+        <nav>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>My GitHub Repositories</h1>
+        <p>Create, share, and discover projects from around the world</p>
+        <a href="#projects" class="cta-button">See Projects</a>
+    </header>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container" id="project-container">
+            <!-- Project cards will be injected here by JavaScript -->
         </div>
-    </div>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a programming enthusiast creating innovative solutions across various technologies. My experience includes working on open-source projects and collaborating with teams worldwide.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Want to get in touch? Drop me a message!</p>
+        <a href="mailto:example@example.com" class="cta-button">Send a Message</a>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 MyGitHub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
